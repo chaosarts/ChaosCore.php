@@ -1,0 +1,18 @@
+{
+    "name": "chaosarts/core",
+    "description": "Core php lib",
+    "type": "lib",
+    "authors": [
+        {
+            "name": "Fu Lam Diep",
+            "email": "fulam.diep@chaosarts.de"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-4": {
+            "Ca\\Core\\": "src/"
+        }
+    },
+    "require": {}
+}
