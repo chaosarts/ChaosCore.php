@@ -8,7 +8,7 @@
             "email": "fulam.diep@chaosarts.de"
         }
     ],
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Chaos\\Core\\": "src/"
