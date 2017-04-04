@@ -14,7 +14,7 @@
         }
     },
     "require": {
-        "php": ">= 7.*",
-        "phpunit/phpunit": "*"
+        "php": ">= 7.0",
+        "phpunit/phpunit": ">= 5.0"
     }
 }
