@@ -7,7 +7,7 @@ class ObjectTest extends PHPUnit_Framework_TestCase
 	 */
 	public function data ()
 	{
-		$varien = new \Ca\Core\Varien\Object();
+		$varien = new \Chaos\Core\Varien\Object();
 		$varien->setData('foo', 'bar');
 		$varien->setData('bar', 'foo');
 
@@ -26,7 +26,7 @@ class ObjectTest extends PHPUnit_Framework_TestCase
 	 */
 	public function magicProperty ()
 	{
-		$varien = new \Ca\Core\Varien\Object();
+		$varien = new \Chaos\Core\Varien\Object();
 		$varien->customerId = 23;
 		
 		$this->assertEquals($varien->hasData('customerId'), false);
@@ -49,7 +49,7 @@ class ObjectTest extends PHPUnit_Framework_TestCase
 	 */
 	public function magicCall ()
 	{
-		$varien = new \Ca\Core\Varien\Object();
+		$varien = new \Chaos\Core\Varien\Object();
 		$varien->setFooBar('baz');
 
 		$this->assertEquals($varien->hasData('foo_bar'), true);
@@ -66,7 +66,7 @@ class ObjectTest extends PHPUnit_Framework_TestCase
 	 */
 	public function arrayAccess ()
 	{
-		$varien = new \Ca\Core\Varien\Object();
+		$varien = new \Chaos\Core\Varien\Object();
 		$varien['id'] = 13;
 		$varien['name'] = 'Foo';
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ca\Core;
+namespace Chaos\Core;
 
-class String
+class StringUtil
 {
 	private function __construct () {}
 

@@ -3,7 +3,10 @@
 		<testsuite name="All">
 			<directory suffix=".php">./</directory>
 		</testsuite>
-		<testsuite name="Varien">
+        <testsuite name="Varien">
+            <directory suffix=".php">./Varien/</directory>
+        </testsuite>
+		<testsuite name="System">
 			<directory suffix=".php">./Varien/</directory>
 		</testsuite>
 	</testsuites>

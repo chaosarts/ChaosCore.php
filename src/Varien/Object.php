@@ -1,7 +1,7 @@
 <?php
 
-namespace Ca\Core\Varien;
-use Ca\Core\String as CoreString;
+namespace Chaos\Core\Varien;
+use\ Chaos\Core\StringUtil as StringUtil;
 
 class Object implements \ArrayAccess
 {
@@ -19,7 +19,7 @@ class Object implements \ArrayAccess
 	 */
 	public function __get ($name)
 	{
-		return $this->getData(CoreString::camelcase2underscore($name));
+		return $this->getData(StringUtil::camelcase2underscore($name));
 	}
 
 
@@ -30,7 +30,7 @@ class Object implements \ArrayAccess
 	 */
 	public function __set ($name, $value)
 	{
-		$this->setData(CoreString::camelcase2underscore($name), $value);
+		$this->setData(StringUtil::camelcase2underscore($name), $value);
 	}
 
 
@@ -46,7 +46,7 @@ class Object implements \ArrayAccess
 		if (empty($matches)) return null;
 
 		list($_, $method, $name) = $matches;
-		array_unshift($args, CoreString::camelcase2underscore($name));
+		array_unshift($args, StringUtil::camelcase2underscore($name));
 
 		switch ($method)
 		{
