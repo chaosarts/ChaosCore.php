@@ -2,6 +2,7 @@
     "name": "chaosarts/core",
     "description": "Core php lib",
     "type": "lib",
+    "minimum-satbility": "dev",
     "authors": [
         {
             "name": "Fu Lam Diep",
