@@ -8,14 +8,13 @@
             "email": "fulam.diep@chaosarts.de"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Chaos\\Core\\": "src/"
         }
     },
     "require": {
-        "php": ">= 5.5.0",
-        "phpunit/phpunit": "4.*"
+        "php": ">= 7.*",
+        "phpunit/phpunit": "*"
     }
 }
