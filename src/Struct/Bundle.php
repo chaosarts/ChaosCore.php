@@ -1,9 +1,9 @@
 <?php
 
-namespace Chaos\Core\Varien;
-use\ Chaos\Core\StringUtil as StringUtil;
+namespace Chaos\Core\Struct;
+use\ Chaos\Core\Util\StringUtil;
 
-class Object implements \ArrayAccess
+class Bundle implements \ArrayAccess
 {
 	/**
 	 * Provides the data of the object

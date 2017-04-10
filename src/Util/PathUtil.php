@@ -1,5 +1,5 @@
 <?php 
-namespace Chaos\Core\System;
+namespace Chaos\Core\Util;
 
 class PathUtil {
 
@@ -8,6 +8,9 @@ class PathUtil {
      * @var string
      */
     const DS = DIRECTORY_SEPARATOR;
+
+
+    private function __construct () {}
 
     /**
      * Returns the list of arguments as path string
@@ -50,6 +53,10 @@ class PathUtil {
             array_unshift($output, '');
         }
 
-        return preg_replace('/(.+)\\' . self::DS . '$/', '$1', self::join(self::DS, $output));
+        return preg_replace(
+            '/(.+)\\' . self::DS . '$/', 
+            '$1', 
+            call_user_func_array(get_class() . '::join', $output)
+        );
     }
 }

@@ -3,11 +3,11 @@
 		<testsuite name="All">
 			<directory suffix=".php">./</directory>
 		</testsuite>
-        <testsuite name="Varien">
-            <directory suffix=".php">./Varien/</directory>
+        <testsuite name="Util">
+            <directory suffix=".php">./Util/</directory>
         </testsuite>
-		<testsuite name="System">
-			<directory suffix=".php">./Varien/</directory>
+		<testsuite name="Struct">
+			<directory suffix=".php">./Struct/</directory>
 		</testsuite>
 	</testsuites>
 </phpunit>
