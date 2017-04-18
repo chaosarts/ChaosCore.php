@@ -2,7 +2,7 @@
     "name": "chaosarts/core",
     "description": "Core php lib",
     "type": "typo3-cms-extension",
-    "minimum-satbility": "dev",
+    "minimum-satbility": "stable",
     "authors": [
         {
             "name": "Fu Lam Diep",
