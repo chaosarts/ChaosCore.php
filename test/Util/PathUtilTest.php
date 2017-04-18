@@ -1,6 +1,6 @@
 <?php
 
-use \Chaos\Core\System\PathUtil;
+use \Chaos\Core\Util\PathUtil;
 
 if (!defined('DS')) define('DS', DIRECTORY_SEPARATOR);
 
