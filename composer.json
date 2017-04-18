@@ -1,7 +1,7 @@
 {
     "name": "chaosarts/core",
     "description": "Core php lib",
-    "type": "typo3-cms-extension",
+    "type": "lib",
     "minimum-satbility": "stable",
     "authors": [
         {
@@ -15,8 +15,7 @@
         }
     },
     "require": {
-        "php": ">= 7",
-        "typo3/cms": "8.*"
+        "php": ">= 7"
     },
     "require-dev": {
         "phpunit/phpunit": "5.7"
